@@ -164,6 +164,7 @@ main > section{
     }
     .facts-sontainer{
        justify-content: center;
+       align-items: center;
        gap: 24px;
     }
    
