@@ -240,7 +240,9 @@ main > section{
 
 /* _____________medium screeen responsive____________ */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .teams{
+    .teams,
+    .features
+    {
         flex-direction: column;
     }
     .our-features{
@@ -250,5 +252,9 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+    #Experience-badge{
+      margin-top: 20px;
+      margin-left: 20px;
     }
 }
