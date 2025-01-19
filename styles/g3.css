@@ -201,6 +201,18 @@ main > section{
 }
 
 
+/* _______________footer styles______ */
+.footer{
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.footer-description{
+  text-align: center;
+  padding: 40px 410px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
   /* ______________________responsive__media__query_______________ */
 
 
@@ -236,6 +248,9 @@ main > section{
       margin-top: 20px;
       margin-left: 20px;
     }
+    .footer-description{
+      padding: 20px;
+    }
 }
 
 /* _____________medium screeen responsive____________ */
@@ -257,4 +272,8 @@ main > section{
       margin-top: 20px;
       margin-left: 20px;
     }
+    .footer-description{
+      padding: 20px;
+    }
+}
 }
